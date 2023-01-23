@@ -49,7 +49,7 @@ function renderTodoList() { //გავწერეთ დარენდერ�
 }
 
 function deleteTodoItemFromtoDoList(id) { //გავწერეთ სიიდან აითემის წაშლის ფუნქცია 
-    let item = toDoList.find(value => value.id === id) // ინდექსს იღებს ადიდის მეშვეობით
+    let item = toDoList.find(value => value.id === id) //
     toDoList.splice(toDoList.indexOf(item), 1)
 }
 
